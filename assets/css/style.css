@@ -17,15 +17,15 @@ h1 {
 }
 .card .top {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   display: block;
   font-size: 3em;
   color: #fff;
   border: 2px solid #fff;
-  border-top: none;
+  border-bottom: none;
   border-right: none;
-  padding: .2em .4em .05em;
+  padding: .2em .4em 0;
   text-decoration: none;
 }
 .card h2 {
@@ -34,6 +34,10 @@ h1 {
   margin: 0;
   padding: 0;
   line-height: 100vh;
+}
+
+#n_coffee h2 {
+  font-size: 15vh;
 }
 
 ul, li {
