@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header {
+  margin: 1em;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  height: 100vh;
+  position: relative;
+}
+.card .top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  font-size: 3em;
+  color: #fff;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  padding: .2em .4em .05em;
+  text-decoration: none;
+}
+.card h2 {
+  font-size: 35vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 100vh;
+}
+
+ul, li {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+ul li a {
+  display: block;
+  border: 1px solid #fff;
+  color: #000;
+  text-decoration: none;
+  width: 30vw;
+  font-size: 10vh;
+  text-align: center;
+  float: left;
+  margin: 1.3vw;
+  padding: .2em 0;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.card:nth-of-type(1) {
+  background-color: #3465a4;
+}
+.card:nth-of-type(2) {
+  background-color: #8ae234;
+}
+.card:nth-of-type(3) {
+  background-color: #73d216 ;
+}
+.card:nth-of-type(4) {
+  background-color: #4e9a06;
+}
+.card:nth-of-type(5) {
+  background-color: #fce94f;
+}
+.card:nth-of-type(6) {
+  background-color: #edd400;
+}
+.card:nth-of-type(7) {
+  background-color: #c4a000;
+}
+.card:nth-of-type(8) {
+  background-color: #fcaf3e;
+}
+.card:nth-of-type(9) {
+  background-color: #f57900;
+}
+.card:nth-of-type(10) {
+  background-color: #ce5c00;
+}
+.card:nth-of-type(11) {
+  background-color: #ef2929;
+}
+.card:nth-of-type(12) {
+  background-color: #cc0000;
+}
+.card:nth-of-type(13) {
+  background-color: #a40000;
+}
