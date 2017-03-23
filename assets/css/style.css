@@ -25,8 +25,9 @@ h1 {
   border: 2px solid #fff;
   border-bottom: none;
   border-right: none;
-  padding: .2em .4em 0;
+  padding: .2em .4em .4em;
   text-decoration: none;
+  border-top-left-radius: 30px;
 }
 .card h2 {
   font-size: 35vh;
