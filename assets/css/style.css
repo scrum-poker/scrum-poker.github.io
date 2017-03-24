@@ -17,17 +17,17 @@ h1 {
 }
 .card .top {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   display: block;
   font-size: 3em;
   color: #fff;
   border: 2px solid #fff;
-  border-bottom: none;
+  border-top: none;
   border-right: none;
   padding: .2em .4em .4em;
   text-decoration: none;
-  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 .card h2 {
   font-size: 35vh;
@@ -38,7 +38,7 @@ h1 {
 }
 
 #n_coffee h2 {
-  font-size: 15vh;
+  font-size: 12vh;
 }
 
 ul, li {
