@@ -1,4 +1,4 @@
-var staticCacheName = 'scrum-poker-v3';
+var staticCacheName = 'scrum-poker-v4';
 
 self.addEventListener('install', e => {
   e.waitUntil(
